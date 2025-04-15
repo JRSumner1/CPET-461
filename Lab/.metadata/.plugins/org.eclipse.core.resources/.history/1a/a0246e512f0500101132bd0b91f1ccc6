@@ -1,0 +1,13 @@
+/*
+ * sharedsemaphores.h
+ *
+ *  Created on: Mar 19, 2025
+ *      Author: Jon Sumner
+ */
+
+#ifndef INC_SHAREDSEMAPHORES_H_
+#define INC_SHAREDSEMAPHORES_H_
+
+
+
+#endif /* INC_SHAREDSEMAPHORES_H_ */
