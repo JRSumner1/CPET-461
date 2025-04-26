@@ -131,8 +131,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Error deleting resource '/Lab 1' from the workspace tree.
-org.eclipse.core.internal.resources.ResourceException(/Lab 1)[569]: java.lang.Exception: Could not delete metadata for '/Lab 1'.
+Contains: Error deleting resource '/Lab1' from the workspace tree.
+org.eclipse.core.internal.resources.ResourceException(/Lab1)[569]: java.lang.Exception: Could not delete metadata for '/Lab1'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -158,9 +158,9 @@ org.eclipse.core.internal.resources.ResourceException(/Lab 1)[569]: java.lang.Ex
 !SUBENTRY 1 org.eclipse.core.resources 1 273 2025-01-13 17:47:14.848
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 2 org.eclipse.core.resources 1 4 2025-01-13 17:47:14.848
-!MESSAGE Error deleting resource '/Lab 1' from the workspace tree.
+!MESSAGE Error deleting resource '/Lab1' from the workspace tree.
 !STACK 1
-org.eclipse.core.internal.resources.ResourceException(/Lab 1)[569]: java.lang.Exception: Could not delete metadata for '/Lab 1'.
+org.eclipse.core.internal.resources.ResourceException(/Lab1)[569]: java.lang.Exception: Could not delete metadata for '/Lab1'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -184,9 +184,9 @@ org.eclipse.core.internal.resources.ResourceException(/Lab 1)[569]: java.lang.Ex
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 3 org.eclipse.core.resources 4 569 2025-01-13 17:47:14.848
-!MESSAGE Could not delete metadata for '/Lab 1'.
+!MESSAGE Could not delete metadata for '/Lab1'.
 !STACK 0
-java.lang.Exception: Could not delete metadata for '/Lab 1'.
+java.lang.Exception: Could not delete metadata for '/Lab1'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -241,7 +241,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !MESSAGE Started RMI Server, listening on port 41337
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-01-13 18:32:05.210
-!MESSAGE Indexed 'Lab 1' (23 sources, 82 headers) in 3.45 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
+!MESSAGE Indexed 'Lab1' (23 sources, 82 headers) in 3.45 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
 !SESSION 2025-01-15 14:33:17.367 -----------------------------------------------
 eclipse.buildId=Version 1.17.0
 java.version=21.0.3
@@ -310,7 +310,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !MESSAGE Started RMI Server, listening on port 41337
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-01-19 13:07:29.841
-!MESSAGE Indexed 'Lab 2' (23 sources, 82 headers) in 3.05 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
+!MESSAGE Indexed 'Lab2' (23 sources, 82 headers) in 3.05 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
 !SESSION 2025-01-20 11:10:32.544 -----------------------------------------------
 eclipse.buildId=Version 1.17.0
 java.version=21.0.3
@@ -343,7 +343,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !MESSAGE Started RMI Server, listening on port 41337
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-01-26 10:35:22.096
-!MESSAGE Indexed 'Lab 3' (23 sources, 82 headers) in 3.41 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
+!MESSAGE Indexed 'Lab3' (23 sources, 82 headers) in 3.41 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
 !SESSION 2025-01-27 11:01:36.275 -----------------------------------------------
 eclipse.buildId=Version 1.17.0
 java.version=21.0.3
@@ -409,7 +409,7 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete '/Lab 2/.settings'.
+Contains: Could not delete '/Lab2/.settings'.
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
 	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
@@ -431,8 +431,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\.settings.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\.settings
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\.settings.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\.settings
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -464,7 +464,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete '/Lab 2/Core'.
+Contains: Could not delete '/Lab2/Core'.
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
 	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
@@ -486,8 +486,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Core.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Core
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Core.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Core
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -519,7 +519,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete '/Lab 2/Debug'.
+Contains: Could not delete '/Lab2/Debug'.
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
 	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
@@ -541,8 +541,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Debug.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Debug
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Debug.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Debug
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -574,7 +574,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete '/Lab 2/Drivers'.
+Contains: Could not delete '/Lab2/Drivers'.
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
 	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
@@ -596,8 +596,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Drivers.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Drivers
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Drivers.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Drivers
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -629,7 +629,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete '/Lab 2/Middlewares'.
+Contains: Could not delete '/Lab2/Middlewares'.
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
 	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
@@ -651,8 +651,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Middlewares.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Middlewares
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Middlewares.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Middlewares
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -684,11 +684,11 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete 'C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2'.
+Contains: Could not delete 'C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2'.
 !SUBENTRY 1 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.898
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 2 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.898
-!MESSAGE Could not delete '/Lab 2/.settings'.
+!MESSAGE Could not delete '/Lab2/.settings'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
@@ -711,8 +711,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\.settings.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\.settings
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\.settings.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\.settings
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -747,9 +747,9 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 !SUBENTRY 3 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.898
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-02-09 11:27:21.898
-!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\.settings.
+!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\.settings.
 !STACK 0
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\.settings
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\.settings
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -782,7 +782,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 2 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.898
-!MESSAGE Could not delete '/Lab 2/Core'.
+!MESSAGE Could not delete '/Lab2/Core'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
@@ -805,8 +805,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Core.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Core
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Core.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Core
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -841,9 +841,9 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 !SUBENTRY 3 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Core.
+!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Core.
 !STACK 0
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Core
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Core
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -876,7 +876,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 2 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete '/Lab 2/Debug'.
+!MESSAGE Could not delete '/Lab2/Debug'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
@@ -899,8 +899,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Debug.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Debug
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Debug.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Debug
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -935,9 +935,9 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 !SUBENTRY 3 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Debug.
+!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Debug.
 !STACK 0
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Debug
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Debug
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -970,7 +970,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 2 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete '/Lab 2/Drivers'.
+!MESSAGE Could not delete '/Lab2/Drivers'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
@@ -993,8 +993,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Drivers.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Drivers
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Drivers.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Drivers
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -1029,9 +1029,9 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 !SUBENTRY 3 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Drivers.
+!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Drivers.
 !STACK 0
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Drivers
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Drivers
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -1064,7 +1064,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 2 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete '/Lab 2/Middlewares'.
+!MESSAGE Could not delete '/Lab2/Middlewares'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:417)
@@ -1087,8 +1087,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Middlewares.
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Middlewares
+Contains: Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Middlewares.
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Middlewares
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -1123,9 +1123,9 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 !SUBENTRY 3 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Middlewares.
+!MESSAGE Could not delete: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Middlewares.
 !STACK 0
-java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2\Middlewares
+java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2\Middlewares
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -1158,7 +1158,7 @@ java.nio.file.AccessDeniedException: C:\Users\impos\OneDrive - rit.edu\School\Ye
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 2 org.eclipse.core.resources 4 273 2025-02-09 11:27:21.899
-!MESSAGE Could not delete 'C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 2'.
+!MESSAGE Could not delete 'C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab2'.
 
 !ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-02-09 11:27:27.121
 !MESSAGE Internal Error
@@ -1179,8 +1179,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Error deleting resource '/Lab 2' from the workspace tree.
-org.eclipse.core.internal.resources.ResourceException(/Lab 2)[569]: java.lang.Exception: Could not delete metadata for '/Lab 2'.
+Contains: Error deleting resource '/Lab2' from the workspace tree.
+org.eclipse.core.internal.resources.ResourceException(/Lab2)[569]: java.lang.Exception: Could not delete metadata for '/Lab2'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -1206,9 +1206,9 @@ org.eclipse.core.internal.resources.ResourceException(/Lab 2)[569]: java.lang.Ex
 !SUBENTRY 1 org.eclipse.core.resources 1 273 2025-02-09 11:27:27.122
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 2 org.eclipse.core.resources 1 4 2025-02-09 11:27:27.122
-!MESSAGE Error deleting resource '/Lab 2' from the workspace tree.
+!MESSAGE Error deleting resource '/Lab2' from the workspace tree.
 !STACK 1
-org.eclipse.core.internal.resources.ResourceException(/Lab 2)[569]: java.lang.Exception: Could not delete metadata for '/Lab 2'.
+org.eclipse.core.internal.resources.ResourceException(/Lab2)[569]: java.lang.Exception: Could not delete metadata for '/Lab2'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -1232,9 +1232,9 @@ org.eclipse.core.internal.resources.ResourceException(/Lab 2)[569]: java.lang.Ex
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 3 org.eclipse.core.resources 4 569 2025-02-09 11:27:27.122
-!MESSAGE Could not delete metadata for '/Lab 2'.
+!MESSAGE Could not delete metadata for '/Lab2'.
 !STACK 0
-java.lang.Exception: Could not delete metadata for '/Lab 2'.
+java.lang.Exception: Could not delete metadata for '/Lab2'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -1259,7 +1259,7 @@ java.lang.Exception: Could not delete metadata for '/Lab 2'.
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-02-09 11:28:57.649
-!MESSAGE Indexed 'Lab 2' (23 sources, 82 headers) in 3.28 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
+!MESSAGE Indexed 'Lab2' (23 sources, 82 headers) in 3.28 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
 
 !ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-02-09 11:44:50.453
 !MESSAGE Error in final launch sequence:
@@ -1281,7 +1281,7 @@ org.eclipse.core.runtime.CoreException: Setup exceptions
 !MESSAGE Setup exceptions
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-02-09 11:53:24.296
-!MESSAGE Indexed 'Lab 4' (23 sources, 82 headers) in 2.2 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
+!MESSAGE Indexed 'Lab4' (23 sources, 82 headers) in 2.2 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
 
 !ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-02-09 11:53:41.286
 !MESSAGE Internal Error
@@ -1302,8 +1302,8 @@ org.eclipse.core.internal.resources.ResourceException: Problems encountered whil
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Error deleting resource '/Lab 4' from the workspace tree.
-org.eclipse.core.internal.resources.ResourceException(/Lab 4)[569]: java.lang.Exception: Could not delete metadata for '/Lab 4'.
+Contains: Error deleting resource '/Lab4' from the workspace tree.
+org.eclipse.core.internal.resources.ResourceException(/Lab4)[569]: java.lang.Exception: Could not delete metadata for '/Lab4'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -1329,9 +1329,9 @@ org.eclipse.core.internal.resources.ResourceException(/Lab 4)[569]: java.lang.Ex
 !SUBENTRY 1 org.eclipse.core.resources 1 273 2025-02-09 11:53:41.286
 !MESSAGE Problems encountered while deleting resources.
 !SUBENTRY 2 org.eclipse.core.resources 1 4 2025-02-09 11:53:41.286
-!MESSAGE Error deleting resource '/Lab 4' from the workspace tree.
+!MESSAGE Error deleting resource '/Lab4' from the workspace tree.
 !STACK 1
-org.eclipse.core.internal.resources.ResourceException(/Lab 4)[569]: java.lang.Exception: Could not delete metadata for '/Lab 4'.
+org.eclipse.core.internal.resources.ResourceException(/Lab4)[569]: java.lang.Exception: Could not delete metadata for '/Lab4'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -1355,9 +1355,9 @@ org.eclipse.core.internal.resources.ResourceException(/Lab 4)[569]: java.lang.Ex
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 3 org.eclipse.core.resources 4 569 2025-02-09 11:53:41.286
-!MESSAGE Could not delete metadata for '/Lab 4'.
+!MESSAGE Could not delete metadata for '/Lab4'.
 !STACK 0
-java.lang.Exception: Could not delete metadata for '/Lab 4'.
+java.lang.Exception: Could not delete metadata for '/Lab4'.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:121)
@@ -1382,7 +1382,7 @@ java.lang.Exception: Could not delete metadata for '/Lab 4'.
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-02-09 11:54:57.077
-!MESSAGE Indexed 'Lab 4' (37 sources, 107 headers) in 2.56 sec: 9,053 declarations; 58,188 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.003%)
+!MESSAGE Indexed 'Lab4' (37 sources, 107 headers) in 2.56 sec: 9,053 declarations; 58,188 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.003%)
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-02-09 12:12:37.741
 !MESSAGE Won't launch debug session since we failed to locate the binary.
@@ -1511,7 +1511,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !MESSAGE Started RMI Server, listening on port 41337
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-02-09 12:44:55.297
-!MESSAGE Indexed 'Lab 4_2' (37 sources, 107 headers) in 4.02 sec: 9,051 declarations; 58,180 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.003%)
+!MESSAGE Indexed 'Lab4_2' (37 sources, 107 headers) in 4.02 sec: 9,051 declarations; 58,180 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.003%)
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-02-09 13:03:08.753
 !MESSAGE Won't launch debug session since we failed to locate the binary.
@@ -1680,15 +1680,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !MESSAGE Started RMI Server, listening on port 41337
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-19 20:32:19.114
-!MESSAGE Indexed 'Lab 5' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!MESSAGE Indexed 'Lab5' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-19 20:32:25.444
-!MESSAGE Indexed 'Lab 5' (23 sources, 82 headers) in 3.52 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
+!MESSAGE Indexed 'Lab5' (23 sources, 82 headers) in 3.52 sec: 5,459 declarations; 29,401 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0057%)
 
 !ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-03-19 21:10:04.479
 !MESSAGE Program file does not exist
 !STACK 0
-java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
@@ -1701,9 +1701,9 @@ java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\S
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-03-19 21:10:04.479
-!MESSAGE C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+!MESSAGE C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 !STACK 0
-java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
@@ -1719,7 +1719,7 @@ java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\S
 !ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-03-19 21:11:16.486
 !MESSAGE Program file does not exist
 !STACK 0
-java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
@@ -1732,9 +1732,9 @@ java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\S
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-03-19 21:11:16.486
-!MESSAGE C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+!MESSAGE C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 !STACK 0
-java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
@@ -1750,7 +1750,7 @@ java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\S
 !ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-03-19 21:13:55.877
 !MESSAGE Program file does not exist
 !STACK 0
-java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
@@ -1763,9 +1763,9 @@ java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\S
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-03-19 21:13:55.877
-!MESSAGE C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+!MESSAGE C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 !STACK 0
-java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab 5\Debug\Lab 5.elf not found
+java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\Semester 2\CPET 461\Lab\Lab5\Debug\Lab5.elf not found
 	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
 	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
@@ -1779,14 +1779,14 @@ java.io.FileNotFoundException: C:\Users\impos\OneDrive - rit.edu\School\Year 5\S
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-19 21:18:22.810
-!MESSAGE Indexed 'Lab 5_2' (36 sources, 147 headers) in 2.11 sec: 14,382 declarations; 59,150 references; 9 unresolved inclusions; 1,391 syntax errors; 1,572 unresolved names (2.1%)
+!MESSAGE Indexed 'Lab5_2' (36 sources, 147 headers) in 2.11 sec: 14,382 declarations; 59,150 references; 9 unresolved inclusions; 1,391 syntax errors; 1,572 unresolved names (2.1%)
 
 !ENTRY org.eclipse.ui 4 4 2025-03-19 21:18:30.374
 !MESSAGE Unable to create part
 !STACK 1
 org.eclipse.ui.PartInitException: Invalid Input: Must be project's active .ioc file.
 
-Project's 'Lab 5_2' active one is 'Lab 5_2.ioc' file
+Project's 'Lab5_2' active one is 'Lab5_2.ioc' file
 	at com.st.stm32cube.common.mx.editor.CubeMxEditor.init(CubeMxEditor.java:855)
 	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
 	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
@@ -1882,10 +1882,10 @@ Project's 'Lab 5_2' active one is 'Lab 5_2.ioc' file
 !SUBENTRY 1 org.eclipse.ui 4 0 2025-03-19 21:18:30.376
 !MESSAGE Invalid Input: Must be project's active .ioc file.
 
-Project's 'Lab 5_2' active one is 'Lab 5_2.ioc' file
+Project's 'Lab5_2' active one is 'Lab5_2.ioc' file
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-19 21:55:44.304
-!MESSAGE Indexed 'Lab 5_3' (36 sources, 147 headers) in 2.33 sec: 14,392 declarations; 59,261 references; 9 unresolved inclusions; 1,391 syntax errors; 1,583 unresolved names (2.1%)
+!MESSAGE Indexed 'Lab5_3' (36 sources, 147 headers) in 2.33 sec: 14,392 declarations; 59,261 references; 9 unresolved inclusions; 1,391 syntax errors; 1,583 unresolved names (2.1%)
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-03-19 22:05:37.205
 !MESSAGE Won't launch debug session since we failed to locate the binary.

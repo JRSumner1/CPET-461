@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <session version="1.0">
-<refactoring comment="Rename resource &apos;Lab 5_2/Lab 5.ioc&apos; to &apos;Lab 5_2.ioc&apos;" description="Rename resource &apos;Lab 5.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lab 5.ioc" name="Lab 5_2.ioc" stamp="1742433520231" updateReferences="true"/>
+<refactoring comment="Rename resource &apos;Lab5_2/Lab5.ioc&apos; to &apos;Lab5_2.ioc&apos;" description="Rename resource &apos;Lab5.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lab5.ioc" name="Lab5_2.ioc" stamp="1742433520231" updateReferences="true"/>
 </session>
